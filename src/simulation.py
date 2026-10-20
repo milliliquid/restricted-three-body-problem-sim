@@ -55,4 +55,6 @@ for n, t in enumerate(time):
 # Plotting
 plt.plot(x_e, y_e)
 plt.plot(x_m, y_m)
+
+plt.gca().set_aspect('equal', adjustable='box')
 plt.show()
